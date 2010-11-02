@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pageTray urlKey="catalog" currentClass="current">
+	<page urlValue="product" file="product/list.php" menuTitle="產品" />
+	<page urlValue="cat" file="category/list.php" menuTitle="分類" />
+</pageTray>

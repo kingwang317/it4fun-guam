@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+	<name>最新消息</name>
+	<admin>admin/index.php</admin>
+	<subAdmin title="最新消息(en)" lang="en" >admin/index.php</subAdmin>
+	<subAdmin title="最新消息(tw)" lang="tw" >admin/index.php</subAdmin>
+	<widget name="最新消息列表">news_index.php</widget>
+	<widget name="最新消息內容">news_detail.php</widget>
+	<widget name="sopnsors列表">sponsors_index.php</widget>
+	<widget name="star sighting">star_sighting_index.php</widget>
+	<widget name="首頁消息列表">index_news_widget.php</widget>
+	<widget name="sopnsors內容">sponsors_detail.php</widget>
+	<active>on</active> <!-- on/off -->
+</plugin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+	<name>服務據點</name>
+	<admin>admin/index.php</admin>
+	<widget name="服務據點列表">dist_index.php</widget>
+	<active>on</active> <!-- on/off -->
+</plugin>

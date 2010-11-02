@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.content{
+font-size:1.0em;
+line-height:150%;
+width:98%;
+}
+
+td.left{
+padding:5px; padding-right:20px; border-right:#666666 solid 1px; margin-right:20px;
+vertical-align:top;
+padding-top:0px;
+width:30%;
+}
+
+td.right{
+padding:5px; 
+vertical-align:top;
+padding-left:15px;
+padding-top:0px;
+padding-left:15px;
+width:70%;
+}
+
+
+/*頁面內導覽*/
+     #menu {
+      float:left;
+      width:100%;
+      font-size:93%;
+      line-height:normal;
+	  border-bottom:1px solid #24618E;
+/*	  background-color:#0f5177;
+	  background-color:#f7f7f7;*/
+      }
+     #menu ul {
+	  margin:0;
+	  padding:0px 10px 0px 0px;
+	  list-style:none;
+      }
+     #menu li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+     #menu a {
+	float:left;
+	margin:0;
+	padding:0 0 0 5px;
+	text-decoration:none;
+      background:url("images/menu_2.gif") no-repeat right top;
+      padding:5px 6px 4px 6px;
+      color:#24618E;
+	  color:#333333;
+	  border-left:#b9b9b9 solid 1px;
+      }
+
+     #menu a:hover {
+      background-position:0% -42px;
+      color:#FFF;
+	  border-left:#093d64 solid 1px;
+      }
+	  
+  #menu a.nowmenu{
+  display:block;
+      background:url("images/menu_2.gif") no-repeat right top;
+      padding:5px 6px 4px 6px;
+      background-position:0% -42px;
+      color:#FFF;
+}
+
+
+
+.h3title{
+color:#666666;
+padding:3px;
+display:none;
+}
+.h3title h3{
+margin:0px;
+padding:0px;
+font-size:13px;
+font-weight:600;
+}
+/*html > body .h3title h3{
+padding-top:5px;
+}*/
+
+/*內容區塊左側導覽*/
+.treelist {
+}
+
+.treelist a{
+color:#333333;
+text-decoration:none;
+}
+.treelist a:visited{
+color:#333333;
+}
+.treelist a:hover{
+color:#666666;
+}
+.treelist .current{
+text-decoration:none;
+}
+.treelist .current span{
+font-weight:600;
+color:#006699;
+background-image:url(images/orange_arrow.gif);
+background-position:0px -2px;
+background-repeat:no-repeat;
+padding:1px 10px 1px 15px;
+text-decoration:underline;
+}
+/*page1*/
+#form1 p{
+position:relative;
+margin-left:160px; font-size:13px;
+}
+#form1 .level1{
+position:absolute;
+left:-140px;
+top:0px;
+text-align:right;
+background-image:url(images/0002_list-item.png);
+background-position:0px 2px;
+background-repeat:no-repeat;
+padding-left:15px;
+}
+div.cshow{
+display:block;
+background-color:#efefef;
+margin-left:180px;
+background-color:#f7f7f7;
+border:#e1e1e1 solid 1px; 
+padding:5px;
+ font-size:13px;
+}
+/*page2*/
+
+.t2{
+color:#000000;
+font-size:13px;
+font-weight:bold;
+padding:2px 10px 15px;
+/*width:140px;*/
+float:left;
+display:block;
+}
+.t1{
+color:#666666;
+}
+.fileinfo{
+font-size:12px;
+color:#77776f;
+display:block;
+padding:2px 5px;
+text-align:left;
+}
+.fileinfo a{
+padding:5px;
+color:#0000FF; text-decoration:underline;
+}
+
+#add span{
+margin:10px 3px 20px 0px;
+float:left;
+}
+.icon01{
+background-image:url(images/bg-icon.gif);
+background-repeat:no-repeat;
+}
+.icon01 a:link, .icon01 a:visited{
+color:#000000;
+text-decoration:none;
+font-size:12px;
+height:22px;
+width:97px;
+text-align:center;
+display:block;
+font-size:12px;
+padding-bottom:5px;
+}
+.icon01 a:hover{
+color:#1e5985;
+}
+.view{
+background-image:url(images/zoom.png); background-repeat:no-repeat;
+padding-left:17px;
+}
+.turnview{
+}
+.turnview a{
+background-image:url(images/small-icon/turnview-blue.gif); background-position:7px 2px; background-repeat:no-repeat;
+margin-left:10px;
+background-color:#FFCC00;
+text-decoration:none;
+padding-left:24px; padding-top:0px; padding-right:10px; padding-bottom:0px;
+border:#000033 solid 1px;
+display:block;
+font-size:13px;
+}
+.turnview a:hover{
+color:#0000FF; text-decoration:underline;
+}
+
+
+
+/*預設值頁面*/
+h4{
+margin:0px;
+padding:0px;
+padding:5px;
+font-size:13px;
+background-color:#e8eefa;
+background-color:#f1f1f1;
+color:#333333;
+padding-left:25px;
+background-image:url(images/small-icon/page_edit.png);
+background-position:3px 5px;
+background-repeat:no-repeat;
+border-top:#c3d9ff solid 1px;
+border-bottom:#c3d9ff solid 1px;
+}
+
+/*page5*/
+.openweb{
+background-image:url(images/small-icon/web-page-blue.gif);
+background-position:0px 2px;
+background-repeat:no-repeat;
+padding-left:20px;
+}
+.openweb a:link, .openweb a:visited{
+color:#266591;
+}
+.openweb a:hover{
+color:#333333;
+}

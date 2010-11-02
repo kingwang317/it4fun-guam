@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navfunc: template | link | nextlevel | text -->
+<!-- content: include | iframe ( for template )-->
+<!-- includeurl -->
+<!-- iframeurl, height , width (for iframe)-->
+<!-- linkurl, target (for linktourl) -->
+<cms>
+  <default>
+    <template>/cms/template/basic/template.php</template>
+    <content_folder>/resource/content/</content_folder>
+    <title></title>
+    <keywords></keywords>
+    <description></description>
+    <fck_id>cms_content</fck_id>
+    <fck_class></fck_class>
+    <fck_css></fck_css>
+    <fck_template></fck_template>
+    <fck_style></fck_style>
+  <cus_name>台灣櫻花</cus_name><cus_url>http://www.sakura.com.tw/</cus_url></default>
+  <sitemap>
+    <page id="0" name="首頁" navfunc="template" template="/cms/template/sakura/blog.php" fck_css="" fck_style="" fck_template="">
+      <page id="-1" name="footer" display="show" navfunc="" linkurl="" target="" customtarget="" li_class="" a_class="" a_title=""/>
+      <page id="-2" name="aboutUs" display="show" navfunc="" linkurl="" target="" customtarget="" li_class="" a_class="" a_title=""/>
+      <page id="1" name="plurk" display="show" template="/cms/template/sakura/2_plurk.php" fck_css="" fck_style="" fck_template="">
+        <content method="plugin" addWay="include" folder="yahoo_k_plus" pluginUrl="/cms/plugin/yahoo_k_plus/plurk_list.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+      </page>
+      <page id="2" name="yahoo_kp" display="show" template="/cms/template/sakura/3_yahoo_knowledge.php" fck_css="" fck_style="" fck_template="">
+        <content method="plugin" addWay="include" folder="yahoo_k_plus" pluginUrl="/cms/plugin/yahoo_k_plus/kp_list.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+      </page>
+      <page id="3" name="blog" display="show" template="/cms/template/sakura/1_blog.php" fck_css="" fck_style="" fck_template="">
+        <content method="plugin" addWay="include" folder="yahoo_k_plus" pluginUrl="/cms/plugin/yahoo_k_plus/blog_list.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+      </page>
+      <page id="4" name="mobile01" display="show" template="/cms/template/sakura/4_Mobile.php" fck_css="" fck_style="" fck_template="">
+        <content method="plugin" addWay="include" folder="mobile01" pluginUrl="/cms/plugin/mobile01/m01_list.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+      </page>
+      <page id="5" name="ptt" display="show" template="/cms/template/sakura/5_PTT.php" fck_css="" fck_style="" fck_template="">
+        <content method="plugin" addWay="include" folder="ptt" pluginUrl="/cms/plugin/ptt/ptt_list.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+      </page>
+      <page id="6" name="權限管理" display="show" template="/cms/template/sakura/2_plurk.php" fck_css="" fck_style="" fck_template="">
+        <content method="plugin" addWay="include" folder="member" pluginUrl="/cms/plugin/member/member_mgr.php" pluginTitle="權限管理" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+      </page>
+    </page>
+  </sitemap>
+</cms>

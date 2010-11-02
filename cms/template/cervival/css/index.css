@@ -1,0 +1,231 @@
+
+body{ 
+	background:#20262c;
+	background:url(../images/CERVIAL_bg.jpg) repeat-x}
+
+#wrap{
+	width:1000px;
+	height:800px;
+	margin:0 auto;}
+#header{
+	background:url(../images/header.jpg) no-repeat;
+	width:1022px;
+	height:400px;
+	margin:0  auto;
+	padding:0;
+	}
+#menu{
+	width:970px;
+	height:400px;
+	margin:0  auto;
+	padding:0;
+	}
+#content{
+	clear:both;
+	width:1022px;
+	height:300px;
+	margin:0  auto;
+	background:url(../images/content.jpg) no-repeat;
+	}
+#products_wrap{
+	float:left;
+	margin:2em 0 0 42px;
+	*_margin-left:21px;
+	width:635px;
+	height:240px;
+	background:url(../images/left_box_bg.jpg) no-repeat;
+	}
+#products{
+	float:left;
+	margin:0 0 0 0;
+	padding:7px;
+	width:630px;
+	height:240px;
+	}
+.newproducts_h4{	
+	margin:-1.2em 0 0 2px;
+	width:140px;
+	height:20px;
+	font:bolder 20px/1em  Tahoma,Arial, Helvetica, sans-serif;
+	color:#1c4d68;
+	position:relative;
+	}
+
+h4.newproducts_h4  span{
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	height:20px;
+	width:140px;
+	background:url(../images/newproducts.jpg) repeat-x;
+}
+
+_html h4.newproducts_h4 span{
+	background-color:#fff;
+	back\ground-color:transparent;
+	background-image: url(none.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/newproducts.jpg", sizingMethod="scale");
+	width:140px;
+}	
+#products a {
+	background-color: inherit;
+	color: #ac681d;
+	text-decoration: underline;
+}
+#products a:hover {
+	text-decoration: none;
+}
+#events_wrap{
+	float:right;
+	margin:2em 42px 0 0;
+	*_margin-right:15px;
+	width:278px;
+	height:240px;
+	background:url(../images/right_box_bg.jpg) no-repeat;
+	}
+#events{
+	float:right;
+	padding:10px;
+	width:260px;
+	height:240px;
+	text-align:justify;
+	}
+#events a {
+	background-color: inherit;
+	color: #3b788f;
+	text-decoration: underline;
+}
+#events a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+h4.events_h4  span{
+	position:absolute;
+	display:block;
+	top:-22px;
+	left:0;
+	height:20px;
+	width:140px;
+	background:url(../images/events.jpg) no-repeat;
+}
+
+_html h4.events_h4 span{
+	background-color:#fff;
+	back\ground-color:transparent;
+	background-image: url(none.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/events.jpg", sizingMethod="scale");
+	width:140px;
+}	
+.events_h4{	
+	margin:0.2em 78px 1px 0;
+	width:10em;
+	height:1px;
+	font:bolder 0px/1em  Tahoma,Arial, Helvetica, sans-serif;
+	color:#DFE3E6;
+	position:relative;
+	}
+
+	
+.left_box1{
+	float: left;
+	width: 270px;
+	margin: 5px;
+	*_margin: 5px;
+	color: #1c4d68;
+	font:normal 12px/14px  Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+	}
+.right_box1{
+	float: right;
+	clear:right;
+	width: 290px;
+	margin: 5px 20px 5px 0;
+	color: #1c4d68;
+	font:normal 12px/1.4em   Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+	}
+	
+.left_box2{
+	float: left;
+	width: 250px;
+	margin: 15px 5px 15px 5px;
+	color: #000000;
+	font:normal 12px/1.4em  Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+	}
+h5{
+	display: block;
+	margin: 0 0 5px 0;
+	padding:2px 0 2px 0 ;	
+	border-bottom: solid 1px #d4d5d6;	
+	color: #ac681d;
+	font-weight:600;
+	font-size: 15px;
+	}
+
+.left-img{
+	float: left;
+	width: 139px;
+	height:93px;
+	margin: 3px 7px 3px 2px;
+	border: solid 1px #555555;
+	font-size: 8px; 	
+	}
+	
+.right-img{
+	float: right;
+	width: 139px;
+	height:93px;
+	margin: 3px 2px 3px 7px;
+	border: solid 1px #555555;
+	font-size: 8px; 	
+	}
+
+em{
+	text-transform:uppercase;
+	font-size:24px ;
+	}
+
+#footer {
+		clear:both;
+		margin:-1em 0 0 0;
+		background:url(../images/footer_bg.jpg);
+		width:1022px;
+		height:85px;
+		}
+#footer h6{		
+		font:normal 20px/1.1em  Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+		width:25em;
+		padding:1.2em 0 0 2em;
+		color: #96acc3;
+		}
+#footer address {		
+		font:normal 11px/1.1em  Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+		margin:-2.4em 0 0 27em;
+		color: #96acc3;
+		}
+#footer ul {
+		font:normal 11px/1.1em  Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+		margin:1em 0 4px 27em;
+		padding: 0;
+		}
+#footer ul li {
+		background-image: none;
+		display: inline;
+		padding:0 5px;
+		border-left: 1px solid #CCCCCC;
+		}
+#footer ul li.first {
+		border: hidden ;
+		}
+		
+		
+		
+#footer a,
+#footer a:link,#footer a:visited  {
+		color:#bcbdbd;
+		text-decoration: none;
+		}
+#footer a:hover,#footer a:active {
+		color: #bcbdbd;
+		text-decoration: underline;
+		}

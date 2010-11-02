@@ -1,0 +1,44 @@
+﻿FCK editor 的設定 (2007/11/11)
+1. config.js
+copy&paste FCKConfig.ToolbarSets
+FCKConfig.FontNames + 新細明體;標楷體
+
+2. filemanager
+fckeditor/editor/filemanager/connectors/php/config.js
+
+add
+<?php require_once($_SERVER['SRVROOT'].'/cms/config/ini.php'); ?>
+
+$Config['Enabled'] = true ;
+$Config['UserFilesPath'] = WEBROOT.'/cms/resource/' ;
+
+3. /cms/config/ini.php
+define('FCK','/cms/lib/editor/FCKeditor_2.5b/fckeditor/');
+
+4. 圖片預覽的亂碼
+fckeditor\editor\dialog\fck_image\fck_image_preview.html
+
+5. FCKeditor 瘦身 2.4.3 887kb  2.5 0.98mb
+1. delete all _xxxx
+2. delete none .php
+3. skins 只留下 default
+4.lang 只留下 en, ja, zh, zh-cn
+5. kill plugins
+
+6. 啟動 ckfinder
+1. config.php 
+<?php require_once($_SERVER['SRVROOT'].'/cms/config/ini.php'); ?>
+$config['Enabled'] = true;
+$baseUrl = WEBROOT.'/cms/resource/' ;
+$baseDir = SRVROOT.'/cms/resource/' ;
+同步資料夾為 小寫 單數 型態 如 file/
+
+2. goeditor.php
+require_once($_SERVER['SRVROOT'].'/cms/lib/editor/ckfinder/ckfinder.php');
+CKFinder::SetupFCKeditor($oFCKeditor,WEBROOT.'/cms/lib/editor/ckfinder/' ) ;
+
+3. 修正 bug for IE
+ckfinder_ie.js
+search bJ=''javascript:void(0)'; 
+replace to bJ=''
+

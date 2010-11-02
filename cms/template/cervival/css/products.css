@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import url(main.css);
+
+
+#content{
+		border-top:3px solid #E6E6E6;
+		width:970px;
+		height:700px;
+		margin:0  auto;
+		margin-rightt:-1px;
+		margin-left:26px;
+		background:url(../images/content_bottom.jpg) 1px 500px repeat-x;
+		}
+
+.image_box{
+		float:left;
+		padding-left:30px;
+		width:300px;
+		height:600px;
+		clear:right;
+		}
+.productname_container{
+		float:right;
+		font:normal 13px/1.5em  Arial,verdana,Sans-Serif;
+		width:600px;
+		height:600px;
+		padding:0 0 0 0 ;
+		}
+	
+#content .productname_container h3{
+		color:#668cb3;
+		font-size:16px;
+		}
+	
+#content img.icon{
+		padding:0 3px;
+		}
+			
+#content span.iconwrap{
+		padding:0 0 0 30px;
+		}
+#content .productname_container h4{
+		padding: 1.5em 0 0 0;
+		font: normal  15px/1.2em  Arial, Helvetica, sans-serif;
+		}
+#content .productname_container p{	
+		font:normal 13px/1.5em Arial, Helvetica, sans-serif;
+		text-align:justify;
+		width:42em;
+		color:#636363;
+		}
+#content .productname_container ul{	
+		padding:10px 1em;
+		list-style-image:url(../images/list_disc.gif);
+		list-style-position:outside;
+		}
+#content .productname_container li{	
+		font: normal 13px/1.5em Arial, Helvetica, sans-serif;
+		*text-indent:1.2em;
+		*_text-indent:1.2em;
+		color:#636363;
+		}
+a.backurl{
+		position:relative;
+		right:-350px;
+		width:15em;
+		height:1.2em;
+		text-align:right;
+		color:#b46918;
+		font: normal 14px/1.5em Arial, Helvetica, sans-serif;
+		}
+a:hover.backurl{
+		text-decoration: none;
+		}
+.image_box img{
+		border: 1px #999999 solid;
+		}
+.image_box img.right_img{
+		float:right;
+		margin:0 -1px 0 0;
+		}
+.image_box img.left_img{
+		float:left;
+		}
+.image_box img.right_img,.image_box img.left_img{
+		margin-top:10px;
+		}
+
+
+
+.simple {
+	display:none;
+	z-index:10000;
+	width:300px;	
+	min-height:200px;
+	border:1px solid #666;
+	-moz-box-shadow:0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;	
+}
+
+.simple .close {
+	background-image:url(../images/close.gif);
+	position:absolute;
+	right:5px;
+	top:5px;
+	cursor:pointer;
+	height:21px;
+	width:21px;
+}
+
+#box {
+	text-align:center;
+}
+ 
+#box img {
+	cursor:pointer;
+	margin:0 5px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	padding:2px;
+ 
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}

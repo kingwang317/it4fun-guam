@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import url(main.css);
+
+.aboutus,.aboutus_bg{   
+		height:500px;
+		}	
+.aboutus_bg{
+		background-image:url(../images/content_bottom2.jpg);
+		background-repeat:repeat-x;
+		background-position:1px 220px;
+		}
+
+#aboutus_txtbox{ 
+		position:relative;
+		top:0;
+		left:25px;	
+		width:600px;
+		height:360px;
+		}
+
+
+.aboutus_h3{	
+	width:600px;
+	height:25px;
+	padding:0 0  15px 0;
+	font:bolder 20px/1em  Tahoma,Arial, Helvetica, sans-serif;
+	color:#1c4d68;
+	position:relative;
+	}
+
+h3.aboutus_h3  span.icon_h3{
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	height:25px;
+	width:400px;
+	background:url(../images/aboutus.jpg) repeat-x;
+}
+
+_html h3.aboutus_h3 span.icon_h3{
+	background-color:#fff;
+	back\ground-color:transparent;
+	background-image: url(none.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/aboutus.jpg", sizingMethod="scale");
+	width:400px;
+}	
+
+.aboutus_h4{  
+	padding:15px 0; }
+span.iconwrap{
+		position:relative;
+		left:80px;
+		}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navfunc: template | link | nextlevel | text -->
+<!-- content: include | iframe ( for template )-->
+<!-- includeurl -->
+<!-- iframeurl, height , width (for iframe)-->
+<!-- linkurl, target (for linktourl) -->
+<cms>
+<default>
+	<template>/cms/template/basic/template.php</template>
+	<content_folder>/resource/content/</content_folder>
+	<title></title>
+	<keywords></keywords>
+	<description></description>
+	<fck_id>cms_content</fck_id>
+	<fck_class/><fck_css/><fck_template/><fck_style/></default>
+<sitemap>
+	<page id="0" name="首頁" navfunc="template" >
+	    <page id="-1" name="footer" display="show" navfunc="" linkurl="" target="" customtarget="" li_class="" a_class="" a_title=""/>
+		<page id="-2" name="aboutUs" display="show" navfunc="" linkurl="" target="" customtarget="" li_class="" a_class="" a_title=""/>
+	</page>
+</sitemap>
+</cms>

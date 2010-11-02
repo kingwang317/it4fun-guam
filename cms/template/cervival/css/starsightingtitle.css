@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url(main.css);
+
+.starsightingtitle,.starsightingtitle_bg{   
+		height:360px;
+		}	
+.starsightingtitle_bg{
+		background-image:url(../images/content_bottom2.jpg);
+		background-repeat:repeat-x;
+		background-position:1px 150px;
+		}
+
+#starsightingtitle_txtbox{ 
+		position:relative;
+		top:0;
+		left:25px;	
+		width:600px;
+		height:260px;
+		}
+h3.starsightingtitle_h3{
+		}
+
+h4.starsightingtitle_h4{
+		padding: 15px 0 0 0;
+		}
+p.starsightingtitle_p{	
+		width:42em;
+		}
+
+

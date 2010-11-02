@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+	<name>mobile01文章管理</name>
+	<admin>admin/index.php</admin>
+	<widget name="mobile01文章列表">m01_list.php</widget>
+	<active>on</active> <!-- on/off -->
+</plugin>

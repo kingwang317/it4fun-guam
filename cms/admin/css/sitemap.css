@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*頁面名稱*/
+
+
+a .name{
+font-weight:600;
+padding:0px 5px 0px 0px;
+color:#ff0000;
+text-decoration:none;
+}
+a:hover{
+color:#666666;
+}
+
+.link2{
+background-image:url(images/small-icon/24-imageset-add.png);
+background-repeat:no-repeat; background-position:0px -5px;
+padding-left:25px;
+}
+.link3{
+background-image:url(images/small-icon/add-page-yellow.gif);
+background-repeat:no-repeat;
+padding-left:20px;
+}
+.link4{
+background-image:url(images/small-icon/24-imageset-open.png);
+background-repeat:no-repeat; background-position:0px -5px;
+padding-left:25px;
+}
+.link5{
+background-image:url(images/small-icon/16-arrow-up.png);
+background-repeat:no-repeat; background-position:0px -2px;
+padding-left:15px;
+}
+.link6{
+background-image:url(images/small-icon/16-arrow-down.png);
+background-repeat:no-repeat; background-position:0px -2px;
+padding-left:15px;
+}
+.link7{
+background-image:url(images/small-icon/icon-del.png);
+background-repeat:no-repeat; background-position:0px 0px;
+padding-left:20px;
+color:#0000FF;
+}
+a:hover .link7{
+color:#FF0000;
+}
+
+/*移動位置*/
+
+li{
+font-size:13px;
+}
+.linki{
+padding-left:5px;
+}
+.linki a{
+background-image:url(images/small-icon/icon_bg.gif); background-position:left top; background-repeat:no-repeat; 
+font-size:12px;
+text-decoration:none; cursor:hand;
+}
+.linki span{
+background-image:url(images/small-icon/icon-span_bg.gif); background-position:right top; background-repeat:no-repeat; line-height:22px; height:22px; padding:0px 10px;
+}
+.mleft a{
+text-decoration:none; font-size:12px;
+}
