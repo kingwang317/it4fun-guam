@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navfunc: template | link | nextlevel | text -->
+<!-- content: include | iframe ( for template )-->
+<!-- includeurl -->
+<!-- iframeurl, height , width (for iframe)-->
+<!-- linkurl, target (for linktourl) -->
+<cms>
+  <default>
+    <template>/cms/template/cervival/index.php</template>
+    <content_folder>/resource/content/</content_folder>
+    <title>Cervival Original Extreme</title>
+    <keywords>surfboard, bodyboard, skimboard, wet suit, accessories</keywords>
+    <description>professional surfboard brand</description>
+    <fck_id>cms_content</fck_id>
+    <fck_class/>
+    <fck_css/>
+    <fck_template/>
+    <fck_style/>
+    <cus_name>Cervival Original Extreme</cus_name>
+    <cus_url>http://www.cervival.com</cus_url>
+  </default>
+  <sitemap>
+    <page id="0" name="Index" navfunc="template" display="show" linkurl="" target="" customtarget="" li_class="" a_class="" a_title="" title="1" description="11" keywords="1" urlqstring="" template="/cms/template/cervival/index_welecom.php" fck_css="" fck_style="" fck_template="">
+      <content method="online" filename="p0-2.htm" divid="cms_content" divclass=""/>
+      <page id="-1" name="footer" display="show" navfunc="" linkurl="" target="" customtarget="" li_class="" a_class="" a_title="">
+        <content method="online" filename="p-1-1.htm" divid="cms_content" divclass=""/>
+      </page>
+      <page id="-2" name="aboutUs" display="show" navfunc="" linkurl="" target="" customtarget="" li_class="" a_class="" a_title="">
+        <content method="online" filename="p-2-1.htm" divid="image_box" divclass="image_box"/>
+        <content method="online" filename="p-2-2.htm" divid="aboutus_txtbox" divclass="left"/>
+      </page>
+      <page id="1" name="home" display="show" template="/cms/template/cervival/index.php" fck_css="" fck_style="" fck_template="">
+        <content method="plugin" addWay="include" folder="product" pluginUrl="/cms/plugin/product/index_pro_widget.php" pluginTitle="首頁產品列表" iframe_w="" iframe_h="" autoheight="" divid="products_wrap" divclass="products_wrap"/>
+        <content method="plugin" addWay="include" folder="news" pluginUrl="/cms/plugin/news/index_news_widget.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="events_wrap" divclass="events_wrap"/>
+        <page id="2" name="Products" display="show" template="/cms/template/cervival/1_Products.php" fck_css="" fck_style="" fck_template="">
+          <content method="plugin" addWay="include" folder="product" pluginUrl="/cms/plugin/product/index_pro.php" pluginTitle="產品列表" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+          <page id="9" name="Surfboard" display="show" template="/cms/template/cervival/1.1_Surfboard.php" fck_css="" fck_style="" fck_template="">
+            <page id="10" name="Men" display="show" template="/cms/template/cervival/1.1.1_Men.php" fck_css="" fck_style="" fck_template=""/>
+          </page>
+          <page id="11" name="ProductContent" display="show" template="/cms/template/cervival/1.1.1.1_ProductContent.php" fck_css="" fck_style="" fck_template="">
+            <content method="plugin" addWay="include" folder="product" pluginUrl="/cms/plugin/product/pro_detail.php" pluginTitle="產品內容" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+          </page>
+        </page>
+        <page id="3" name="AboutUs" display="show" template="/cms/template/cervival/2_AboutUs.php" fck_css="" fck_style="" fck_template="">
+          <content method="online" filename="p3-1.htm" divid="" divclass="image_box right"/>
+          <content method="include" includeurl="/cms/resource/contents/p-2-2.htm" divid="aboutus_txtbox" divclass="left"/>
+        </page>
+        <page id="4" name="News" display="show" template="/cms/template/cervival/3_News.php" fck_css="" fck_style="" fck_template="">
+          <content method="plugin" addWay="include" folder="news" pluginUrl="/cms/plugin/news/news_index.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+          <page id="12" name="News Content" display="show" navfunc="" linkurl="" target="" customtarget="" li_class="" a_class="" a_title="" template="/cms/template/cervival/3.1_NewsContent.php" fck_css="" fck_style="" fck_template="">
+            <content method="plugin" addWay="include" folder="news" pluginUrl="/cms/plugin/news/news_detail.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+          </page>
+        </page>
+        <page id="5" name="Distributors" display="show" template="/cms/template/cervival/4_Distributors.php" fck_css="" fck_style="" fck_template="">
+          <content method="plugin" addWay="include" folder="distributor" pluginUrl="/cms/plugin/distributor/dist_index.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+        </page>
+        <page id="6" name="Sponsors" display="show" template="/cms/template/cervival/5_Sponsors.php" fck_css="" fck_style="" fck_template="">
+          <content method="plugin" addWay="include" folder="news" pluginUrl="/cms/plugin/news/sponsors_index.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+          <page id="13" name="Sponsors Content" display="show" template="/cms/template/cervival/3.1_NewsContent.php" fck_css="" fck_style="" fck_template="">
+            <content method="plugin" addWay="include" folder="news" pluginUrl="/cms/plugin/news/sponsors_detail.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+          </page>
+        </page>
+        <page id="7" name="Sightings" display="show" template="/cms/template/cervival/6_StarSighting.php" fck_css="" fck_style="" fck_template="" navfunc="" linkurl="" target="" customtarget="" li_class="" a_class="" a_title="">
+          <content method="plugin" addWay="include" folder="news" pluginUrl="/cms/plugin/news/star_sighting_index.php" pluginTitle="" iframe_w="" iframe_h="" autoheight="" divid="" divclass=""/>
+        </page>
+        <page id="8" name="ContactUs" display="show" template="/cms/template/cervival/7_ContactUs.php" fck_css="" fck_style="" fck_template="">
+          <content method="online" filename="p8-1.htm" divid="cms_content" divclass=""/>
+        </page>
+      </page>
+    </page>
+  </sitemap>
+</cms>

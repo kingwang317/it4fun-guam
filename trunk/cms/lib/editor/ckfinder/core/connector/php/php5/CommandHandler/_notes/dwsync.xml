@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CommandHandlerBase.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231994375000" remote="128514772800000000" />
+<file name="CreateFolder.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231994375000" remote="128514772800000000" />
+<file name="DeleteFile.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231994843750" remote="128514772800000000" />
+<file name="DeleteFolder.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231994843750" remote="128514772800000000" />
+<file name="DownloadFile.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995000000" remote="128514772800000000" />
+<file name="FileUpload.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995156250" remote="128514772800000000" />
+<file name="GetFiles.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995312500" remote="128514772800000000" />
+<file name="GetFolders.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995312500" remote="128514772800000000" />
+<file name="Init.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995312500" remote="128514772800000000" />
+<file name="RenameFile.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995468750" remote="128514772800000000" />
+<file name="RenameFolder.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995468750" remote="128514772800000000" />
+<file name="Thumbnail.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995625000" remote="128514772800000000" />
+<file name="XmlCommandHandlerBase.php" server="mobius.tw/mobiuscms.com/versions/2.05/" local="128511231995781250" remote="128514772800000000" />
+</dwsync>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pageTray urlKey="imkey" currentClass="current">
+	<page urlValue="1" file="{SRVROOT}/cms/lib/urlNavigation/demo/toBeInclude/includePage/childPage1.php" menuTitle="Page1" />
+	<page urlValue="2" file="{SRVROOT}/cms/lib/urlNavigation/demo/toBeInclude/includePage/childPage2.php" menuTitle="Page2" />
+	<page urlValue="3" file="{SRVROOT}/cms/lib/urlNavigation/demo/toBeInclude/includePage/childPage3.php" menuTitle="Page3" hide="hide" />
+</pageTray>

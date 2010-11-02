@@ -1,0 +1,12 @@
+AddDefaultCharset UTF-8
+ErrorDocument 404 http://140.124.75.240/it4fun-guam/404.php
+php_flag output_buffering On
+SetEnv SRVROOT C:/wamp/www/it4fun-guam
+SetEnv WEBROOT http://140.124.75.240/it4fun-guam
+SetEnv SITE_KEY ZDQxZDhjZDk4ZjAwYjIwNGU5ODAwOTk4ZWNmODQyN2V8NTI0Mjg4MDB8MjA5OS0xMi0zMXwxNDAuMTI3LjE0OS4yMzZ8MTA4ODg=
+php_flag magic_quotes_gpc off
+php_flag register_globals off
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^cms/(.*)\/index-([0-9]+)\.html$ index.php?cmsid=$2&theme=$1 [L,NC]

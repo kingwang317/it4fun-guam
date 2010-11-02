@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+body{ 
+		background:#20262c url(../images/CERVIAL_bg.jpg) repeat-x;
+		}
+
+#wrap{
+		width:1022px;
+		height:auto;
+		margin:0 auto;
+		z-index:999;
+		}
+#header{
+		background:url(../images/products_header.jpg) no-repeat;
+		width:1022px;
+		height:127px;
+		margin:0  auto;
+		padding:0;
+		}
+.menu{
+		width:970px;
+		height:127px;
+		margin:0  auto;
+		padding:0;
+		}
+#navi_wrap{
+		background:url(../images/nevi.jpg) no-repeat;
+		width:1022px;
+		height:41px;
+		margin:0  auto;
+		padding:0;
+		}	
+#navi {
+		float:left;
+		margin: 0 0 0 26px ;
+		*_margin-left:13px ;
+		padding: 0px;
+		height: 27px;
+		width:850px;
+		}
+
+#navi ul {
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		text-align: center;
+		list-style-type: none;
+		}
+
+#navi ul li {
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+		display: block;
+		float: left;
+		}
+
+#navi ul li a {
+		text-align: center;
+		display: block;
+		margin: 0;
+		padding: 14px 0 0 0;
+		width: 120px;
+		height: 27px;
+		font: bolder 16px/18px  "Trebuchet MS","lucida grande", "lucida sans unicode", verdana, lucida, sans-serif;
+		color: #DBDBDB;
+		text-decoration: none;
+		}
+
+#navi ul li a:hover {
+		background:url(../images/hovernevi.jpg) repeat-y;
+		color: #fffcfc;
+		}
+#navi ul li span a{
+		display:block;
+		height:27px;
+		width:120px;
+		background:url(../images/hovernevi.jpg) no-repeat;
+		}
+#content_wrap{
+		clear:both;
+		width:1022px;
+		height:auto;
+		margin:0  auto;
+		background:url(../images/body_repeat_x_bg.jpg) 0 0 repeat-y;
+		}
+.content{   
+		border-top:3px solid #E6E6E6;
+		width:971px;
+		margin:0  auto;
+		margin-rightt:-1px;
+		margin-left:26px;
+		}
+.container{
+		height:auto; 
+		font:normal 13px/1.5em  Arial,verdana,Sans-Serif;
+		
+		}
+.left{  float:left; }
+.right{  float:right; }
+
+	
+.image_box{
+		padding: 0 20px;
+		width:300px;
+		}
+.image_box img{
+		border: 1px #999999 solid;
+		}
+
+
+.breadcrumb{
+		position:relative;
+		top:10px;
+		left:25px;
+		height:3em;
+		}
+.breadcrumb a {
+		font:normal 12px/1.5em  Arial,verdana,Sans-Serif;
+		color:#275066;
+		text-decoration:none;
+		display:inline;
+		}
+.breadcrumb a:hover {
+		color:#000;
+		}
+	
+img.icon{
+		padding:0 3px;
+		}
+span.iconwrap{
+		position:relative;
+		left:50px;
+		text-align:right;
+		padding:0;
+		}
+h3{
+		color:#668cb3;
+		font:bolder  18px/1.2em  Arial, Helvetica, sans-serif;
+		}
+
+h4{
+		font:normal  15px/1.2em  Arial, Helvetica, sans-serif;
+		}
+p{	
+		font:normal 13px/1.5em Arial, Helvetica, sans-serif;
+		text-align:justify;
+		color:#636363;
+		}
+a.backurl{
+		position:relative;
+		left:410px;
+		width:15em;
+		height:1.2em;
+		color:#b46918;
+		font: normal 14px/1.5em Arial, Helvetica, sans-serif;
+		}
+a:hover.backurl{
+		text-decoration: none;
+		}
+p.footnavi {
+	position:relative;
+	top:0;
+	left:600px;	
+	font: normal 12px/1.2em  Arial,Verdana,  Helvetica, sans-serif;
+	width:320px; 
+	padding: 3px;
+	}
+
+.footnavi a ,.footnavi a:active {
+	padding:2px 5px ;
+	margin: 2px;
+	color: #555;
+	text-decoration:none;
+	}
+
+.footnavi a:hover {
+	color: #000;
+	}
+	
+.footnavi span.disabled {
+	padding:2px 5px;
+	margin: 2px;
+	color: #ad6a1c;
+	}
+#footer {
+		clear:both;
+		margin:0;
+		background:url(../images/footer_bg.jpg);
+		width:1022px;
+		height:85px;
+		}
+#footer h6{		
+		position:relative;
+		top:25px;
+		left:40px;
+		text-align:left;
+		font:normal 20px/1.1em  Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+		width:25em;
+		color: #96acc3;
+		}
+#footer address {	
+		position:relative;
+		top:0px;
+		left:280px;	
+		width:25em;
+		font:normal 11px/1.1em  Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+		color: #96acc3;
+		}
+#footer ul {
+		position:relative;
+		top:10px;
+		left:280px;
+		width:42em;
+		font:normal 11px/1.1em  Arial,Vixual, Helvetica, sans-serifTrebuchet MS;
+		padding: 0;
+		}
+#footer ul li {
+		background-image: none;
+		display: inline;
+		padding:0 5px;
+		border-left: 1px solid #CCCCCC;
+		}
+
+#footer ul li.first {
+		border: hidden ;
+		}
+
+#footer a,
+#footer a:link,#footer a:visited  {
+		color:#bcbdbd;
+		text-decoration: none;
+		}
+#footer a:hover,#footer a:active {
+		color: #bcbdbd;
+		text-decoration: underline;
+		}

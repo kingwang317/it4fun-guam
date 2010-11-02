@@ -1,0 +1,82 @@
+#nav{
+border-left:1px solid gray;
+}
+
+html>body #nav{
+}
+
+#nav ul{
+list-style:none;
+margin:0;
+padding:0;
+height:29px;
+border-bottom: 1px solid black;
+}
+
+html>body #nav ul{
+height:29px;
+}
+
+#nav li {
+float:left; /*如果用 display:inline無法設定 height 與 width*/
+white-space:nowrap; 
+background:#F1F3F5;
+/*height: 50px;
+*/width: 100px; 
+text-align:center;
+}
+
+#nav li a{
+	display:block; /* 讓整個滑鼠反應區為區塊 */
+	text-decoration:none;
+	background: #F1F3F5;
+	font-size:13px;
+	line-height:28px; /* 讓文字垂直置中，並定義了滑鼠反應區高度 */
+	height:30px; /* IE 需另外設定滑鼠反應區高度 */
+	border: 1px solid gray;
+	border-bottom:none;
+	margin-left:-1px;
+	color: gray;
+	letter-spacing: 4px;
+}
+
+html>body #nav li a{
+	height:28px; 
+}
+
+
+#nav li a:visited {
+	color: gray;
+}
+
+#nav li a:hover{
+background:yellow;
+color:black;
+}
+
+#nav .current {
+background:white;
+border:	1px solid black;
+border-bottom:none;
+color: black;
+position:relative;
+}
+
+#nav .current span {
+height:30px;
+position: absolute;
+width: 100px;
+left:0px;
+border-bottom: 1px solid white;
+}
+
+html>body #nav .current span{
+height:28px;
+}
+
+#nav .current:hover, #nav .current:visited {
+background:white;
+cursor:default;
+color:black;
+
+}

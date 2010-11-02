@@ -1,0 +1,91 @@
+/************** 排版 ***************************/
+body {
+text-align:center;
+background:#CCCCCC;
+
+}
+
+#wrapper {
+width:900px;
+background:white;
+text-align:left;
+margin: 0 auto;
+border:1px solid black;
+
+}
+
+#top {
+height:50px;
+position:relative;
+}
+
+#outter {
+position:relative;
+height:0px;
+
+
+}
+
+html>body #outter{
+height:auto;
+min-height:20px;
+}
+
+#left {
+width:200px;
+height:100px;
+position: absolute;
+left:0;
+top:0;
+border-right:1px solid black;
+border-top:1px solid black; /*配合 #right 修正 firefox 自動會有個margin-top的問題*/
+}
+
+html>body #left{
+height:auto;
+min-height:100px;
+}
+
+#right {
+width:auto;
+height:150px;
+position:relative;
+margin-left:200px;
+margin-top:0px;
+
+border-top:1px solid black; /*修正 firefox 自動會有個margin-top的問題*/
+}
+
+html>body #right{
+width:auto;
+height:auto;
+min-height:150px;
+}
+
+
+#bottom {
+height:50px;
+border-top:1px solid black;
+}
+
+/********************內容元件*********************/
+#top .headiing{
+position:absolute;
+top:20px;
+left:30px;
+}
+
+#top .info{
+position:absolute;
+top:30px;
+right:20px;
+font-size:0.8em;
+}
+
+#right .content{
+margin:10px;
+}
+
+#left .content{
+margin: 20px;
+}

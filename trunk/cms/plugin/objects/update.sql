@@ -1,0 +1,1 @@
+UPDATE plu_objects SET mrtLine=6 WHERE mrtLine>6

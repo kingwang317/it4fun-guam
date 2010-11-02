@@ -1,0 +1,226 @@
+@charset "utf-8";
+@import url(main.css);
+
+.product1_bg{
+	height:580px;
+	background:url(../images/content_bottom2.jpg) 1px 350px repeat-x;
+	}
+
+h3{
+	}
+
+.product_h3{	
+	width:117px;
+	height:25px;
+	font:bolder 20px/1em  Tahoma,Arial, Helvetica, sans-serif;
+	color:#1c4d68;
+	position:relative;
+	}
+
+h3.product_h3  span{
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	height:25px;
+	width:117px;
+	background:url(../images/products.jpg) repeat-x;
+}
+
+_html h3.product_h3 span{
+	background-color:#fff;
+	back\ground-color:transparent;
+	background-image: url(none.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/products.jpg", sizingMethod="scale");
+	width:117px;
+}	
+
+.sufboard_h3{	
+	width:132px;
+	height:25px;
+	font:bolder 20px/1em  Tahoma,Arial, Helvetica, sans-serif;
+	color:#1c4d68;
+	position:relative;
+	}
+
+h3.sufboard_h3  span{
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	height:25px;
+	width:132px;
+	background:url(../images/surfboard.jpg) repeat-x;
+}
+
+_html h3.sufboard_h3 span{
+	background-color:#fff;
+	back\ground-color:transparent;
+	background-image: url(none.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/surfboard.jpg", sizingMethod="scale");
+	width:117px;
+}	
+
+
+
+.sufboardrormen_h3{	
+	width:228px;
+	height:25px;
+	font:bolder 20px/1em  Tahoma,Arial, Helvetica, sans-serif;
+	color:#1c4d68;
+	position:relative;
+	}
+
+h3.sufboardrormen_h3  span{
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	height:25px;
+	width:228px;
+	background:url(../images/surfboardformen.jpg) repeat-x;
+}
+
+_html h3.sufboardrormen_h3 span{
+	background-color:#fff;
+	back\ground-color:transparent;
+	background-image: url(none.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/surfboardformen.jpg", sizingMethod="scale");
+	width:228px;
+}
+
+
+
+
+
+
+
+input.submit{
+	background-position:0px 0px;
+}
+input.submit_hover{
+	background-position:0px -24px;
+}
+
+#product1{ 
+	position:relative;
+	top:0;
+	left:25px;	
+	width:970px;
+	height:550px;
+	font:normal 12px/1.2em  Arial,Vixual,Trebuchet MS;
+	color: #1c4d68;
+	}
+
+p.footnavi {
+	position:relative;
+	top:0;
+	left:600px;	
+	font: normal 12px/1.2em  Arial,Verdana,  Helvetica, sans-serif;
+	width:320px; 
+	padding: 3px;
+	}
+	
+#box_wrap{
+	margin: 0 auto;
+	position: relative;
+	width:970px;
+}
+.box{
+	background:url(../images/img.png) center center no-repeat;
+	width: 200px;
+	height:170px;
+	float: left;
+	margin:0;
+	padding:10px;
+	position: relative;
+}
+
+*html div.box{
+	background: none transparent scroll repeat 0% 0%; 
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/img.png',sizingmethod='scale');
+			}
+#box_wrap a.img{	
+	position: relative;
+	text-decoration: none;
+	 outline: none; /* for Firefox */
+	 hlbr:expression(this.onFocus=this.blur()); /* for IE */
+} 
+#box_wrap a.box_link {	
+	position: relative;
+	left:1em;
+	top:7em;
+	color:#666666;
+	text-decoration: none;
+} 
+#box_wrap a:hover.box_link {	
+	color:#ac681d;
+	text-decoration:underline;
+} 
+
+
+
+#box_wrap img{
+	border: 0;
+	top:50px;
+	left:50px;
+	width:50%;
+	height:50%;
+	position: relative;
+}
+
+#sufboard_button{
+	width:400px;
+	height:2em;
+	position: relative;
+	left:310px;
+	top:1em;
+
+}
+.button100{
+	font-weight:bolder;
+	color:#838584;
+	margin:5px 0;
+	width:130px;
+	height:30px;
+	background:url(../images/button100.gif) no-repeat;
+	border-style:normal;
+	border-width:0px;
+}
+
+.button120{
+	font-weight:bolder;
+	color:#439dd6;
+	width:130px;
+	height:30px;
+	background:url(../images/button100.gif) no-repeat;
+	border-style:normal;
+	border-width:0px;
+}
+.button120 a{
+	text-decoration:underline;
+}
+
+
+#product1_button{
+		width:800px;
+		height:60px;
+		margin:20px 0 0 30px;}
+		
+a.backurl{
+		position:relative;
+		left:670px;
+		top:10px;
+		width:15em;
+		height:1.2em;
+		color:#b46918;
+		font: normal 14px/1.5em Arial, Helvetica, sans-serif;
+		}
+p.footnavi {
+	position:relative;
+	top:0;
+	left:550px;	
+	font: normal 12px/1.2em  Arial,Verdana,  Helvetica, sans-serif;
+	width:320px; 
+	padding: 3px;
+	}

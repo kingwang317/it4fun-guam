@@ -1,0 +1,43 @@
+標題:分享獨立的php留言板驗證碼套件
+
+說明:因為客戶的需要，為了防止機器人的留言灌水，
+所以嘗試在網路上找一些可以加在php留言板的驗證碼套件，但是結果是非常令人失望的。
+
+因為找的到檔案都是要搭配例如PHPBB或是一些大型的論壇所使用的，
+重點是不能單獨的存在；還有找到一個，不過，所開發的作者並不願意公開分享。
+
+所以，為了能讓廣大的網路使用者，在單純的php留言板，
+能外掛一個小套件，便能擁有一個圖片驗證碼的功能之情況之下，
+所以我們整合了這一個小套件，供大家下載使用，歡迎大家共同分享，
+但轉貼本文時，請標明出處--本文轉貼於"一方位網頁設計"。
+
+檔案大小:3kb
+
+做法:
+1.請先下載 http://www.e-d.com.tw/download/PHPverify.rar 這一個檔案，
+解壓縮之後，會有 imagebuilder.php 及 settings.php 這2個php檔案
+請將這2個檔案放在您php留言板的網站同一層目錄中，接下來在您的php留言板，新增一列可供php驗證碼的儲存格
+網頁語法如下:
+
+<tr>
+<td align="left" colspan="2"><font size="2">請輸入驗證碼：</font><img src="imagebuilder.php" border="1">
+<input maxlength=8 size=8 name="userstring" type="text" value=""></td>
+</tr>
+
+最後看您的留言板一定是會將留言的資料以POST的方式，看form就可以知道是傳到那一個檔案
+
+在此接收並傳送的php頭頂加上此段:
+
+<? include("settings.php") ; ?>
+<?
+@session_start();
+$string = strtoupper($_SESSION['string']);
+$userstring = strtoupper($_POST['userstring']); 
+@session_destroy(); 
+if (($string != $userstring) || (strlen($string) <= 4)) {
+echo "<center><br><br><br><br><br><br><br><font color=red size=2>驗証碼錯誤！請輸入正確的驗證碼</font><br><a href=javascript:history.back(1)><font size=2><center>回上一頁</font></a>";
+exit();
+}
+?>
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+	<name>使用者管理</name>
+	<admin>admin/index.php</admin>
+	<subAdmin title="使用者權限管理">admin/sub.php</subAdmin>
+	<active>on</active> <!-- on/off -->
+</plugin>

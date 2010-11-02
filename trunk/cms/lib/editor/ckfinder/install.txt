@@ -1,0 +1,66 @@
+CKFinder for PHP
+================
+http://www.ckfinder.com
+Copyright (C) 2007 Frederico Caldeira Knabben
+
+-------------------------------------------------------------------------------
+Installation Instructions
+-------------------------------------------------------------------------------
+
+1. Copy the distribution files to your web server inside the "/ckfinder/"
+   folder or any other folder in your web site.
+
+2. Create a folder in the server to hold all uploaded files. By default,
+   CKFinder is configured to use the "/ckfinder/userfiles/" folder in your web
+   site.
+
+3. Make the above user files folder writable by the internet user. On Linux,
+   chmod it to 0777. On Windows, give write permissions to the
+   IUSR_<ServerName> user.
+
+4. Edit the config.php file. Be sure you have correctly set all settings in
+   that file, and that you have enabled CKFinder on it.
+
+You should be ready to go. Just browse _samples/php/standalone.php to test and
+see CKFinder.
+
+-------------------------------------------------------------------------------
+Security Tips
+-------------------------------------------------------------------------------
+
+- On Apache, you may disable the PHP engine in the user files folder by copying
+  the "/userfiles/.htaccess" file inside your destination folder.
+
+- The config.php file contains many important security settings. Be sure you
+  have reviewed and understood all of them.
+
+-------------------------------------------------------------------------------
+FCKeditor Integrations
+-------------------------------------------------------------------------------
+
+CKFinder comes with built it APIs to easily integrate it with FCKeditor. Check
+the "_samples" folder for specific examples of it.
+
+To instead configure FCKeditor manually to use CKFinder, just edit the
+fckconfig.js file in the FCKeditor directory and modify the following settings:
+
+    FCKConfig.LinkBrowserURL = '/ckfinder/ckfinder.html' ;
+    FCKConfig.ImageBrowserURL = '/ckfinder/ckfinder.html?type=Images' ;
+    FCKConfig.FlashBrowserURL = '/ckfinder/ckfinder.html?type=Flash' ;
+
+Just change "/ckfinder/" in the above URLs if you have CKFinder installed in a
+different place.
+
+-------------------------------------------------------------------------------
+System Requirements
+-------------------------------------------------------------------------------
+
+ - Compatible Browsers:
+       - Internet Explorer 5.5+
+       - Firefox 1.5+
+
+ - PHP 4.3+ (including PHP 5.x).
+
+ - GD extension enabled (default on most installations) for thumbnails support.
+   Thumbnails are automatically disabled if this extension is missing.
+   See http://www.php.net/gd.

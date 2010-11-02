@@ -1,0 +1,16 @@
+www.tenk.idv.tw/tscr/
+
+location.html 聯絡我們-交通資訊
+dessert.html 餐點介紹-果汁茶點 + 健康料理 + 咖啡茶飲
+launch.html 餐點介紹-新品推薦
+promote.html 促銷優惠
+feature.html 牛排特色
+sspecial.html 特選全餐
+mixunits.html 海陸大餐
+time.html 精緻午茶
+fintro.html 餐點介紹
+history.html 關於特香齋
+method.html 特香齋貴賓卡贈卡方式 + 媒體報導
+report.html 媒體報導 + 活動內容 + 最新消息
+environment.html 環境設備
+form.html 聯絡特香齋(form)

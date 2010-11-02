@@ -1,0 +1,5 @@
+ 
+#AuthName "password2"
+#AuthUserFile H:\wamp\www\eschools.webhop.net\.ok_useresch
+#Options -Indexes
+

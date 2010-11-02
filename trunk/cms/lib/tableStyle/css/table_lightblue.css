@@ -1,0 +1,39 @@
+@charset "utf-8";
+.table{
+border-collapse:collapse;
+border: 1px solid DarkGray  ;
+}
+
+.table caption{
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	color: black;
+	font-weight:bold;
+	padding-bottom:7px;
+	letter-spacing: 0.5em;
+}
+
+.table th, .table td, .table .heading {
+	border:1px solid DarkGray ; /*CadetBlue */
+	empty-cells: show;
+	padding: 5px 10px 3px;
+	vertical-align: top;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 13px;
+	color: #333;
+}
+
+.table tr { background: #FFF; }
+
+.table tr.odd { background: AliceBlue; }
+
+.table th{
+background: LightSteelBlue ;
+}
+.table .heading{
+background: LightSteelBlue ;
+}
+
+.outline {
+	border:2px solid black;
+}
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+	<name>商品/服務管理</name>
+	<admin>admin/index.php</admin>
+	<subAdmin title="分類管理">admin/sub.php</subAdmin>
+	<widget title="產品列表">index_pro.php</widget>
+	<widget title="產品內容">pro_detail.php</widget>
+	<widget title="首頁產品列表">index_pro_widget.php</widget>
+	<active>on</active> <!-- on/off -->
+</plugin>

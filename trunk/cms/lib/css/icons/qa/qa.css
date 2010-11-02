@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.question{
+background-image:url(images/icon_question.gif);
+background-repeat:no-repeat;
+padding-left:25px;
+font-size:13px;
+}
+.answer{
+background-image:url(images/icon_answer.gif);
+background-repeat:no-repeat;
+background-position:left 2px;
+padding-left:25px;
+font-size:13px;
+}
