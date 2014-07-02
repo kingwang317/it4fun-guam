@@ -18,9 +18,9 @@ define('CMSXML',SRVROOT.'/cms/xml/cms.xml');
 define('CONTENTFOLDER',SRVROOT.'/cms/resource/contents/');
 define('FCK','/cms/lib/editor/FCKeditor_2.6/fckeditor/');
 //定義資料庫
-define('DB_USER', 'root');
+define('DB_USER', '');
 define('DB_PASSWD', '');
-define('DB_NAME', 'steak_cms');
+define('DB_NAME', '');
 define('DB_HOST', 'localhost');
 //定義預設語系
 define('DEFAULTLANG', 'ZH-TW');
